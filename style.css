@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Body*/
+body{
+    color: rgb(235, 231, 227);
+    font-family: Helvetica;
+}
+
+/*Header*/
+nav{
+    width: 100vw;
+    background-image: linear-gradient(115deg, rgb(215, 224, 215), rgb(11, 114, 11), rgb(11, 114, 11));
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgb(107, 107, 107) 10px 10px 50px;
+}
+
+header>nav>h3{
+    font-size: 40px;
+}
+
+header>nav>img{
+    height: 100px;
+    width: 100px;
+}
+
+header>nav>ul{
+    font-size: 20px;
+}
