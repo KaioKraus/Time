@@ -9,7 +9,6 @@ body{
     color: rgb(235, 231, 227);
     font-family: Helvetica;
     background-image: linear-gradient(0deg, rgb(215, 224, 215), rgb(11, 114, 11), rgb(11, 114, 11));  
-    height: 1000px;
 }
 
 /*Header*/
@@ -90,6 +89,12 @@ header>nav>ul{
 
 .img_ntc_4{
     width: 300px;
+}
+
+/*Seção 2*/
+/*escalçao*/
+.img_jogador{
+    width: 250px;
 }
 
 /*footer*/
