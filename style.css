@@ -8,25 +8,36 @@
 body{
     color: rgb(235, 231, 227);
     font-family: Helvetica;
-    background-image: linear-gradient(0deg, rgb(215, 224, 215), rgb(11, 114, 11), rgb(11, 114, 11));  
+    background-image: linear-gradient(-45deg, rgb(155, 207, 155), rgb(5, 103, 5));  
 }
 
 /*Header*/
 nav{
     width: 100vw;
-    height: 150px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(0, 27, 0, 0.8);
+    position: fixed;
+    border-bottom: solid 3px goldenrod;
 }
 
 header>nav>h3{
     font-size: 40px;
 }
 
-header>nav>img{
-    height: 100px;
-    width: 100px;
+.logo_pal1{
+    height: 0px;
+    width: 0px;
+    margin-top: 20px;
+}
+
+.logo_pal{
+    height: 150px;
+    width: 150px;
+    margin: 20px 0 0 200px;
+    position: fixed;
 }
 
 header>nav>ul{
@@ -43,14 +54,16 @@ header>nav>ul{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 150px auto;
+    margin: 250px auto;
     padding: 30px;
-    border-radius: 25px;
+    border-radius: 25px 0;
+    border: solid 1px #fff;
 }
 
 .noticia_1{
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 0 20px; 
+    border: solid 1px goldenrod;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -61,7 +74,8 @@ header>nav>ul{
 /*section 2*/
 .noticia_2{
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 0 20px; 
+    border: solid 1px goldenrod;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -72,7 +86,8 @@ header>nav>ul{
 /*Section 3*/
 .noticia_3{
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 0 20px; 
+    border: solid 1px goldenrod;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -83,7 +98,8 @@ header>nav>ul{
 /*Section 4*/
 .noticia_4{
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 0 20px; 
+    border: solid 1px goldenrod;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -93,8 +109,47 @@ header>nav>ul{
 
 /*Seção 2*/
 /*escalçao*/
+.jogadores{
+    width: 65vw;
+    height: auto;
+    margin: 0 auto 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.jogador{
+    width: 260px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 25px 0;
+    border: solid 2px goldenrod;
+}
+
 .img_jogador{
     width: 250px;
+    border-radius: 20px 0 0;
+    margin-top: 5px;
+    border: 2px solid goldenrod;
+}
+
+.box1{
+    background-color: rgb(2, 65, 2);
+    border: solid 2px goldenrod;
+    border-radius: 0 0 20px;
+    margin: 0 3px 3px;
+}
+
+/*palmeiras flutuante*/
+.flutuante{
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+    float: right;
+    bottom: 115px;
+    left: 92vw;
+    position: fixed;
 }
 
 /*footer*/
